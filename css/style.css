@@ -1,0 +1,27 @@
+:root{
+    --orange: #ffa500;
+}
+
+body{
+    font-family: "Assistant", sans-serif;
+
+}
+
+
+img{
+    width: 100%;
+}
+
+p,li,a{
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 0.7px;
+    margin: 0;
+}
+h1{
+    color: var(--orange);
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
