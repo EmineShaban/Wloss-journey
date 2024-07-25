@@ -1,27 +1,72 @@
-:root{
+:root {
     --orange: #ffa500;
 }
 
-body{
+body {
     font-family: "Assistant", sans-serif;
 
 }
 
 
-img{
+img {
     width: 100%;
 }
 
-p,li,a{
-    font-size: 12px;
+p,
+li,
+a {
+    font-size: 14px; 
+    margin: 0;
+    line-height: 1.3;
+
+}
+h1,h2,h3,h4,h5 {
     line-height: 1.2;
     letter-spacing: 0.7px;
-    margin: 0;
 }
-h1{
+h1 {
     color: var(--orange);
     text-align: center;
     font-weight: 600;
     font-size: 20px;
     margin-bottom: 30px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.background-color {
+    background-color: #f2eaeb;
+
+}
+
+.red {
+    color: red;
+}
+
+.orange {
+    color: orange;
+}
+
+.font35 {
+    font-size: 35px;
+
+}
+.font18 {
+    font-size: 18px;
+
+}
+h2 {
+    font-weight: 700;
+     
+}
+
+.before-after {
+    border-radius: 10px;
+}
+
+hr {
+    margin: 30px 0;
 }
