@@ -11,10 +11,13 @@ body {
 }
 
 
-img, video {
+img {
     width: 100%;
 }
-
+video {
+    width: 100%;
+    margin: 30px auto;
+}
 p,
 li,
 a {
@@ -64,18 +67,27 @@ h1 {
     font-size: 35px;
 
 }
-.font29{
+
+.font29 {
     font-size: 29px;
 
 }
+
 .font25 {
     font-size: 25px;
 
 }
+
 .font22 {
     font-size: 22px;
 
 }
+
+.font20 {
+    font-size: 20px;
+
+}
+
 .font18 {
     font-size: 18px;
 
@@ -110,38 +122,131 @@ hr {
     color: var(--light--orange);
 }
 
-.font-weight900{
+.font-weight900 {
     font-weight: 900;
 
 }
+.font-weight700 {
+    font-weight: 700;
 
-.grey{
+}
+
+.grey {
     color: var(--g-text);
 }
 
 
-.line-height{
+.line-height {
     line-height: 1.6;
     font-weight: 400;
     font-size: 16px;
 }
 
 
-ul li{
-    margin-bottom: 7px; 
+ul li {
+    margin-bottom: 7px;
     line-height: 1.6;
     font-weight: 400;
     font-size: 16px;
 }
 
-.red-back{
+.red-back {
     background-color: #fcd1d2;
     margin: 40px 0;
     border-radius: 15px;
-    padding: 15px 0;
+    padding: 15px 30px;
 }
-.red-back p{
-font-weight: 700;
-color: #FF0505;
-text-align: center;
+
+.red-back p {
+    font-weight: 700;
+    color: #FF0505;
+    text-align: center;
+}
+.red-back img {
+    margin: 15px auto;
+}
+
+.btn{
+    display: block;
+    background-color: #FF0000;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    font-size:19px;
+    font-weight: 800; 
+    padding: 10px 0;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+
+.btn:hover{
+    background-color: #00763D; 
+}
+
+.btn2{
+    display: block;
+    background-color: #FF0000;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    font-size:17px;
+    font-weight: 500; 
+    padding: 10px 0;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+
+.btn2:hover{
+    background-color: #00763D; 
+}
+
+
+.border{
+    border: dashed rgba(52, 159, 108, 0.5) 2px;
+    border-radius: 10px;
+    background-color: #f9e8e8;
+    padding-bottom: 15px;
+}
+
+
+.border img{
+    border-radius: 10px;
+
+}
+
+.border p{
+    color: #FF0505;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+.review{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    column-gap: 15px;
+    margin: 25px auto;
+}
+
+
+.review div{
+    margin-top: 7px;
+}
+
+.review-div{
+    width: 90%;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.swiper{
+    margin: 80px auto;
+}
+ 
+i{
+    font-size: 12px;
+}
+span.swiper-pagination-bullet-active { 
+    background: gray;
+    
 }
