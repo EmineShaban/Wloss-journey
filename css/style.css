@@ -250,3 +250,47 @@ span.swiper-pagination-bullet-active {
     background: gray;
     
 }
+
+/* timer */
+.timer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    margin: 15px auto;
+}
+.timer span{
+    color: #FF0505;
+    text-align: center;
+    font-weight: 700;
+}
+/* footer */
+footer {
+    margin-top: 40px;
+  }
+  footer ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  footer ul li {
+    margin: 0;
+  }
+  footer div.links {
+    text-align: center;
+    margin: 3vh;
+  }
+  
+  footer a {
+    margin: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+  }
+  
+  footer p {
+    text-align: center;
+    letter-spacing: 0.7px;
+    line-height: 1;
+  }
