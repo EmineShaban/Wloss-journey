@@ -256,7 +256,7 @@ ul li {
 }
 
 .swiper {
-    margin: 80px auto;
+    margin: 30px auto;
 }
 
 i {
@@ -448,12 +448,15 @@ footer p {
     .published {
         margin-top: 20px;
     }
-
+    .width{
+        width: 70%;
+        margin: 15px auto;
+    }
 
 }
 
 @media screen and (min-width: 994px) {
-
+    
     .btn2,
     .btn {
         width: 55%;
@@ -481,7 +484,7 @@ footer p {
 
     .second-div {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 0.7fr;
         column-gap: 25px;
     }
 
@@ -521,11 +524,19 @@ footer p {
     }
 
     .border-last{
-        width: 60%;
+        width: 30%;
         margin: auto;
     }
     .before-after {
         width: 80%;
+    }
+
+    .btn2{
+        margin-bottom: 25px;
+    }
+    .width{
+        width: 40%;
+        margin: 15px auto;
     }
 }
 
