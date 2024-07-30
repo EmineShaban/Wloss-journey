@@ -13,8 +13,13 @@ body {
 .desktop {
     display: none;
 }
+
 .mobile {
     display: block;
+}
+
+.desktop994 {
+    display: none;
 }
 
 img {
@@ -320,7 +325,7 @@ footer p {
     .before-after {
         width: 75%;
         margin: auto;
-        display: block;
+        /* display: block; */
     }
 
     .logo {
@@ -381,11 +386,12 @@ footer p {
     .desktop {
         display: block;
     }
+
     .mobile {
         display: none;
     }
 
-    header{
+    header {
         display: grid;
         grid-template-columns: 1fr 0.8fr;
         align-items: center;
@@ -394,66 +400,54 @@ footer p {
         width: 80%;
         margin: auto;
     }
+
     .logo {
         margin: 0;
     }
-    h1{
+
+    h1 {
         text-align: left;
         display: inline-block;
         font-size: 17px;
 
     }
-    .header-div ul{
+
+    .header-div ul {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 15px;
         align-items: center;
         justify-content: center;
     }
-    .header-div ul li{
+
+    .header-div ul li {
         text-align: center;
     }
-    .header-div ul li a{
+
+    .header-div ul li a {
         font-size: 22px;
         text-align: center;
         color: black;
         font-style: italic;
     }
-    .logo{
+
+    .logo {
         margin-top: 20px;
     }
 
-.background-color{
-    background-color: white;
-}
+    .background-color {
+        background-color: white;
+    }
 
-.before-after{
-    width: 100%;
-    margin: auto;
-    border-radius: unset;
-}
+    .before-after {
+        width: 100%;
+        margin: auto;
+        border-radius: unset;
+    }
 
-.published{
-    margin-top: 20px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .published {
+        margin-top: 20px;
+    }
 
 
 }
@@ -465,6 +459,74 @@ footer p {
         width: 55%;
         margin: auto;
     }
+
+    .desktop994 {
+        display: block;
+    }
+    .mobile994{
+        display: none;
+    }
+   
+    .timer div p,
+    .timer div span {
+        color: black;
+
+    }
+    .timer div p{
+        font-weight: 400;
+    }
+    .timer div span {
+        font-size: 35px;
+    }
+
+    .second-div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 25px;
+    }
+
+    .border-text {
+        padding: 0 25px;
+        margin-top: 25px;
+    }
+    .border{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 0;
+    }
+    .btn2, .btn {
+        width: 100%;
+        margin: auto;
+    }
+    .btn2{
+        margin-bottom: 0;
+    }
+    .timer {
+        width: 100%;
+        margin: 30px auto;
+    }
+    .belly {
+        width: 100%;
+        display: block;
+    }
+
+
+
+    .second-div{
+        margin-bottom: 20px;
+    }
+    .belly{
+        margin-bottom: 0;
+    }
+
+    .border-last{
+        width: 60%;
+        margin: auto;
+    }
+    .before-after {
+        width: 80%;
+    }
 }
 
 
@@ -473,24 +535,24 @@ footer p {
         width: 65%;
         margin: auto;
     }
-
-    .before-after {
-        width: 60%;
+    header {
+        display: grid;
+        grid-template-columns: 1fr 0.7fr;
+        align-items: center;
+        /* flex-direction: row; */
+        /* justify-content: space-between; */
+        width: 70%;
         margin: auto;
-        display: block;
     }
+ 
 
     .logo {
         width: 50%;
-        margin: auto;
+        /* margin: auto; */
         display: block;
     }
 
-    .belly,
-    .woman {
-        width: 60%;
-        display: block;
-    }
+  
 }
 
 
@@ -498,36 +560,21 @@ footer p {
 
     .logo {
         width: 25%;
-        margin: auto;
-        display: block;
     }
 
     h1 {
-        color: var(--orange);
-        text-align: center;
-        font-weight: 700;
-        font-size: 40px;
-        margin-bottom: 30px;
+        font-size: 25px;
     }
 
     .before-after {
-        width: 45%;
-        margin: auto;
-        display: block;
+        width: 60%;
     }
 
     h2 {
         text-align: center;
-        width: 70%;
-        margin: auto;
     }
 
-    .belly,
-    .woman {
-        width: 45%;
-        display: block;
-    }
-
+     
     video {
         width: 30%;
     }
@@ -538,16 +585,10 @@ footer p {
         display: block;
     }
 
-    .btn2,
-    .btn {
-        width: 45%;
-        margin: auto;
+    .timer div span {
+        font-size: 25px;
     }
-
-    .timer {
-        width: 30%;
-        margin: 15px auto;
-    }
+    
 
 
 
