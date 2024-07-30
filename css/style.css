@@ -384,6 +384,10 @@ footer p {
 
 
 @media screen and (min-width: 1440px) {
+    .container {
+        width: 65%;
+        margin: auto;
+    }
 
     .before-after {
         width: 60%;
