@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head> 
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,22 +25,32 @@
     </div>
 
     <header>
-        <img class="logo" src="./images/file.png" alt="logo">
-        <h1>
-            STRUGGLE NO MORE WITH WEIGHT LOSS
-        </h1>
+        <div>
+            <img class="logo" src="./images/file.png" alt="logo">
+            <h1>
+                STRUGGLE NO MORE WITH WEIGHT LOSS
+            </h1>
+        </div>
+        <div class="desktop header-div">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">My Story</a></li>
+                <li><a href="">My Life</a></li>
+            </ul>
+        </div>
     </header>
 
     <div class="background-color">
 
         <div class="container">
 
-            <img class="before-after" src="./images/MT-WEIGHT-LOSS-COMP.webp" alt="">
+            <img class="before-after mobile" src="./images/MT-WEIGHT-LOSS-COMP.webp" alt="">
             <h2>How I Lost <span class="red font35">10 Kilos</span> in 4 Weeks. <span class="orange font35">No Diets, No
                     Exercising, No Pills.</span> Struggle NO MORE with weight loss. You CAN
                 lose up to 10 kilos in less than a month, following this simple method</h2>
+                <img class="before-after desktop" src="./images/MT-WEIGHT-LOSS-COMP.webp" alt="">
 
-            <p>
+            <p class="published">
                 <b>Published:</b> Kelly Roger ,Monday, June 24, 2024
 
             </p>
@@ -185,19 +195,19 @@
                     <br><br> Hurry, Limited Time Offer:
                 </p>
                 <div class="timer">
-                <div>
-                    <span id="hours"></span><br>
-                    <p>hours</p>
-                </div>
-                <div>
-                    <span id="minutes"></span><br>
-                    <p>minutes</p>
-                </div>
-                <div>
-                    <span id="seconds"></span><br>
-                    <p>seconds</p>
-                </div>
-                <!-- <span id="hours"></span>:<span id="minutes"></span>:<span id="seconds"></span> <span> minutes</span> -->
+                    <div>
+                        <span id="hours"></span><br>
+                        <p>hours</p>
+                    </div>
+                    <div>
+                        <span id="minutes"></span><br>
+                        <p>minutes</p>
+                    </div>
+                    <div>
+                        <span id="seconds"></span><br>
+                        <p>seconds</p>
+                    </div>
+                    <!-- <span id="hours"></span>:<span id="minutes"></span>:<span id="seconds"></span> <span> minutes</span> -->
                 </div>
 
 
@@ -337,17 +347,17 @@
         var swiper = new Swiper(".mySwiper", {
             pagination: {
                 el: ".swiper-pagination",
-            },    
+            },
             breakpoints: {
                 500: {
                     slidesPerView: 2,
                     spaceBetween: 20,
-                },  
+                },
             },
         });
     </script>
 
-  
+
 
     <script type='text/javascript' src='/cdn/plugins/consent-banner/consent-banner.min.js'></script>
     <script src="./js/index.js"></script>
